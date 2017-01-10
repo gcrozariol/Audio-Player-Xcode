@@ -12,6 +12,14 @@
 		791046361E12909600869F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791046341E12909600869F55 /* Main.storyboard */; };
 		791046381E12909600869F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791046371E12909600869F55 /* Assets.xcassets */; };
 		7910463B1E12909600869F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791046391E12909600869F55 /* LaunchScreen.storyboard */; };
+		7910464A1E12954400869F55 /* icones.png in Resources */ = {isa = PBXBuildFile; fileRef = 791046481E12954400869F55 /* icones.png */; };
+		7910464B1E12954400869F55 /* logo_branco.png in Resources */ = {isa = PBXBuildFile; fileRef = 791046491E12954400869F55 /* logo_branco.png */; };
+		792E07861E12B683004E02AE /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 792E07831E12B683004E02AE /* pause.png */; };
+		792E07871E12B683004E02AE /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 792E07841E12B683004E02AE /* stop.png */; };
+		792E07881E12B683004E02AE /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 792E07851E12B683004E02AE /* play.png */; };
+		792E078B1E12BFEF004E02AE /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 792E07891E12BFEE004E02AE /* forward.png */; };
+		792E078C1E12BFEF004E02AE /* backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 792E078A1E12BFEE004E02AE /* backward.png */; };
+		792E07941E12D1F1004E02AE /* nao_estou_normal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 792E07931E12D1F1004E02AE /* nao_estou_normal.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		791046371E12909600869F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7910463A1E12909600869F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7910463C1E12909600869F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791046481E12954400869F55 /* icones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icones.png; sourceTree = "<group>"; };
+		791046491E12954400869F55 /* logo_branco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_branco.png; sourceTree = "<group>"; };
+		792E07831E12B683004E02AE /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		792E07841E12B683004E02AE /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		792E07851E12B683004E02AE /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		792E07891E12BFEE004E02AE /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		792E078A1E12BFEE004E02AE /* backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backward.png; sourceTree = "<group>"; };
+		792E07931E12D1F1004E02AE /* nao_estou_normal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nao_estou_normal.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +73,27 @@
 				791046301E12909600869F55 /* AppDelegate.swift */,
 				791046321E12909600869F55 /* ViewController.swift */,
 				791046341E12909600869F55 /* Main.storyboard */,
-				791046371E12909600869F55 /* Assets.xcassets */,
 				791046391E12909600869F55 /* LaunchScreen.storyboard */,
 				7910463C1E12909600869F55 /* Info.plist */,
+				791046371E12909600869F55 /* Assets.xcassets */,
+				792E07931E12D1F1004E02AE /* nao_estou_normal.mp3 */,
+				792E078E1E12C34E004E02AE /* PNGs */,
 			);
 			path = "Audio Player";
+			sourceTree = "<group>";
+		};
+		792E078E1E12C34E004E02AE /* PNGs */ = {
+			isa = PBXGroup;
+			children = (
+				792E07851E12B683004E02AE /* play.png */,
+				792E07831E12B683004E02AE /* pause.png */,
+				792E07841E12B683004E02AE /* stop.png */,
+				792E07891E12BFEE004E02AE /* forward.png */,
+				792E078A1E12BFEE004E02AE /* backward.png */,
+				791046481E12954400869F55 /* icones.png */,
+				791046491E12954400869F55 /* logo_branco.png */,
+			);
+			name = PNGs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +157,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7910463B1E12909600869F55 /* LaunchScreen.storyboard in Resources */,
+				792E07871E12B683004E02AE /* stop.png in Resources */,
+				792E07881E12B683004E02AE /* play.png in Resources */,
+				792E07941E12D1F1004E02AE /* nao_estou_normal.mp3 in Resources */,
 				791046381E12909600869F55 /* Assets.xcassets in Resources */,
 				791046361E12909600869F55 /* Main.storyboard in Resources */,
+				792E07861E12B683004E02AE /* pause.png in Resources */,
+				792E078C1E12BFEF004E02AE /* backward.png in Resources */,
+				7910464A1E12954400869F55 /* icones.png in Resources */,
+				7910464B1E12954400869F55 /* logo_branco.png in Resources */,
+				792E078B1E12BFEF004E02AE /* forward.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +340,7 @@
 				791046411E12909600869F55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
