@@ -20,11 +20,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var scrubber: UISlider!
     
-    func updateScrubber() {
+    @objc func updateScrubber() {
         scrubber.value = Float(player.currentTime)
     }
     
-    func updateTimeLabels() {
+    @objc func updateTimeLabels() {
         
         let currentMinute = Int(player.currentTime / 60)
         let currentSecond = Int(player.currentTime.truncatingRemainder(dividingBy: 60))
